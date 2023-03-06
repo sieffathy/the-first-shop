@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+
+/*start  header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+ 
+header input{
+    padding-left: 30px ;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.fa-magnifying-glass{
+   position: absolute;
+    top: 53px;
+   left: 220px;
+}
+
+/*  end left side */
+
+header div{
+    color: gray
+}
+    
+ div .fa-user:hover{
+    color: black;
+}
+    
+div .fa-heart:hover{
+    color: black;
+}
+    
+div .fa-cart-shopping:hover{
+     color: black;
+}
+    
+.fa-heart{
+     margin-left: 8px;
+    margin-right: 8px;
+
+      }
+    
+    
+    /* end right side */
+
+
+header button{
+    margin-right: 150px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    }
+    
+ hr{
+     margin-top: 100px;
+    
+    }
+    
+    /* start section-1 */
+    
+ nav{
+     margin-top: 20px;
+     margin-left: 650PX;
+    font-family: sans-serif;
+    margin-bottom: 17px;
+      
+    }
+    
+ nav :hover{
+    color: blueviolet;
+    
+    }
+ nav a{
+        margin: 10px;
+        color: gray;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+.Home a{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+.Home{
+        height: 80px;
+        background-color: rgb(211, 209, 209);
+    }
+
+table{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: 200px;
+border-left: 1px solid rgb(184, 184, 184);
+border-bottom: none;
+border-top: none;
+border-right: none;
+}
+
+
+.fa-x{
+    color: white;
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+
+th{
+    border: 1px solid rgb(172, 172, 172);
+    border-bottom: none;
+    border-left: none;
+    padding: 30px;
+}
+
+tr img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+td{
+ 
+    border: 1px solid rgb(172, 172, 172);
+    border-bottom: none;
+    border-left: none;
+  
+    font-size: 30px;
+  position: relative;
+    padding-left: 50px;
+}
+
+
+td div{
+        font-size: 20px;
+        color: blueviolet;
+       
+
+}
+
+
+
+.plus-3{
+    font-size: 40px;
+    color: blueviolet;
+    padding-left: 2px;
+ 
+}
+
+.plus-4{
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+
+
+.ppp{
+
+       position: absolute;
+    color: rgb(255, 255, 255); 
+     top: 1150px;
+        right: 1590px;
+        background-color: blueviolet;
+        border: none;
+        padding: 18px;
+        border-radius: 4px;
+        transition: all 0.2s; 
+    }
+
+    button:hover{
+        transform: scale(1.1);
+    
+    }
+
+
+    .ppp-1{
+
+        position: absolute;
+        color: blueviolet; 
+        top: 1150px;
+         right: 1390px;
+         background-color: rgb(253, 253, 253);
+         border: 1px solid blueviolet;
+         padding: 18px;
+         border-radius: 4px;
+         transition: all 0.2s; 
+     }
+ 
+        .submit{
+            position: absolute;
+            color: rgb(255, 255, 255); 
+            top: 1350px;
+             right: 1490px;
+             background-color:  blueviolet;
+             border: 1px solid blueviolet;
+             padding: 18px;
+             border-radius: 4px;
+             transition: all 0.2s; 
+        }
+        
+        .submit:hover{
+            transform: scale(1.1);
+    
+        }
+
+        .text{
+            position: absolute;
+            color: blueviolet; 
+            top: 1350px;
+             right: 1590px;
+             background-color: rgb(253, 253, 253);
+             border: 1px solid blueviolet;
+             padding: 18px;
+             border-radius: 4px;
+        
+        }
+
+        .detals h3{
+            position: absolute;
+        font-family: sans-serif;
+            top: 1300px;
+             left: 100px;
+        }
+
+        .box-1{
+            position: relative;
+            border: 1px solid black;
+            width: 300px;
+            margin-top: 200px;
+            margin-left: 1500px;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            height: 250px;
+            border-radius: 10px;
+            font-family:sans-serif ;
+        }
+        
+        
+        .box-1 ul{
+            list-style: none;
+            margin-left: 30px;
+            margin-top: 60px;
+            font-size: 19px;
+        /* color: blueviolet   ; */
+           
+        }
+        
+        .box-1 h1{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        .box-1 .numper{
+            position: absolute;
+            right: 10px;
+            bottom: 70px;
+            font-size: 15px;
+        }
+
+        .ppp-2{
+
+            position: absolute;
+            color: rgb(243, 243, 243); 
+            top: 1500px;
+             right: 150px;
+             font-family: sans-serif;
+             background-color:  blueviolet;
+             border: 1px solid blueviolet;
+             padding: 18px;
+             border-radius: 4px;
+             transition: all 0.2s; 
+         }
+
+
+         
+/* footer */
+
+
+footer{
+    display: flex;
+    justify-content: space-around; 
+      font-family: sans-serif;
+       margin-top: 30px;
+       font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 120px;
+    padding-left:  10px;
+    /* color: rgb(172, 53, 53); */
+}
+li{
+  color: rgb(17, 17, 17);
+}
+
+.ul2 img{
+    margin-top: 30px;
+}
+
+.ul3{
+    margin-top: 100px;
+}
+
+.ul4{
+    margin-top: 100px;
+}
+
+
+
+footer .submit{
+    position: relative;
+    top: 325px;
+    right: 69px;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border: none;
+}
+
+footer .email{
+    position: relative;
+    top: 380px;
+    right: 280px;
+    padding: 18px;
+}
+
+
+.eenndd{
+ margin-top: 150px;
+ margin-left: 700px;
+ margin-bottom:5px ;
+ font-size: 20px;
+ color: gray;
+}

@@ -1,0 +1,510 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+/*start  header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+ 
+header input{
+    padding-left: 30px ;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.fa-magnifying-glass{
+   position: absolute;
+    top: 53px;
+   left: 220px;
+}
+
+/*  end left side */
+
+
+header div{
+color: gray
+}
+
+ div .fa-user:hover{
+color: black;
+}
+
+div .fa-heart:hover{
+    color: black;
+    }
+
+ div .fa-cart-shopping:hover{
+      color: black;
+   }
+
+   .fa-heart{
+    margin-left: 8px;
+    margin-right: 8px;
+
+  }
+
+
+/* end right side */
+
+
+header button{
+    margin-right: 150px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+hr{
+    margin-top: 100px;
+
+}
+
+/* start section-1 */
+
+
+nav{
+    margin-top: 20px;
+    margin-left: 650PX;
+    font-family: sans-serif;
+    margin-bottom: 17px;
+  
+}
+
+nav :hover{
+color: blueviolet;
+
+}
+nav a{
+    margin: 10px;
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+section h1{
+    position: absolute;
+    top: 500px;
+    right: 440px;
+    font-size: 70px;
+}
+
+section p{
+    position: absolute;
+    top: 660px;
+    right: 50px;
+    font-size: 35px;
+    color: rgb(63, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section button{
+    position: absolute;
+    top:  850px;
+    right: 700px;
+    background-color: rgb(150, 52, 241);
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica, sans-serif;
+ 
+}
+
+   
+
+button:hover{
+    transform: scale(1.1);
+      transition-duration: 0.3s;
+}
+
+/* start section-2 */
+
+.large-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.first-lest{
+    margin-left: 10px;
+    font-family: sans-serif;
+margin-top: 60px;
+}
+
+.first-lest p{
+position:relative;
+top: 10px;
+left: 5px;
+font-size: 20px;
+}
+
+ .fa-truck{  
+   color: blueviolet; 
+   font-size: 30px;
+   position: relative;
+   left: 80px;
+   top:  60px;
+  
+}
+.thacnd-2{
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+
+.fa-rotate-right{
+   color: blueviolet;  
+    font-size: 30px;
+    position: absolute;
+    left: 720px;
+}
+.thacnd-2 p{
+    position:relative;
+    top: 10px;
+    left: 5px;
+    font-size: 20px;
+}
+
+.third-3{
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+.fa-question{
+    color: blueviolet;  
+    font-size: 35px;
+    position: absolute;
+    right: 500px;
+}
+.third-3 p{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 20px;
+}
+
+/* sart section-3 */
+
+.colect{
+    display: flex;
+    justify-content: space-around;
+}
+.image-1{
+    position: relative;
+    top: 300px;
+    overflow: hidden;
+} 
+
+.image-1 div{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.image-1 img{
+    filter: brightness(70%);
+}
+
+
+.image-1 :hover{
+    filter: none;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+
+.image-2{
+    position: relative;
+    top: 300px;
+    transition: all 0.9s ease;
+       overflow: hidden;
+}
+
+.image-2 div{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.image-2 img{
+    filter: brightness(70%);
+}
+
+.image-2 :hover{
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+    filter: none;
+}
+
+.image-3{
+    position: relative;
+    top: 300px;
+    overflow: hidden;
+
+} 
+
+
+.image-3 div{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.image-3 img{
+    filter: brightness(70%);
+}
+
+.image-3 :hover{
+    filter: none;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+/* start sevtion-4 */
+
+.ex{
+height: 800px;
+background-color: rgb(228, 228, 228);
+margin-top: 500px;
+
+}
+
+.napoli span{
+    color: blueviolet;
+margin-left : 140px ;
+margin-bottom: 10px;
+font-size: 70px;
+}
+
+.napoli {
+    color: rgb(0, 0, 0);
+    margin-left : 780px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.tank{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    left: 200px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+
+.tank h5{
+    color: gray;
+    padding-left: 120px;
+}
+
+.tank h2{
+    color: blueviolet;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.tank .qwq{
+    margin-left: 170px;
+} 
+
+
+.crator{
+    width: 400px;
+    height: 450px;
+    padding-left: 30px;
+    background-color: white;
+    position: absolute;
+    left: 800px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+.crator .ere{
+ margin-top: 20px;
+ margin-left: 160px;
+}
+
+
+.crator h2{
+    color: blueviolet;
+    font-family: sans-serif;
+    margin-top: 70px;
+   margin-left: 140px; 
+} 
+
+.crator h5{
+    color: gray;
+    padding-left: 100px;
+    font-family: sans-serif;
+}
+
+
+
+.polo{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    right: 180px;
+    border-radius: 20px;
+}
+
+.polo h2{
+    color: blueviolet;
+    margin-left: 120px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.polo h5{
+    color: gray;
+    padding-left: 100px;
+    font-family: sans-serif;
+
+}
+
+.polo .tyt{
+    margin-top: 20px;
+ margin-left: 160px;
+}
+
+
+/* start section-5 */
+.napoli-1{
+    color: rgb(0, 0, 0);
+    margin-left : 880px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.napoli-1 span{
+    color: blueviolet;
+    margin-left :60px ;
+    margin-bottom: 10px;
+    font-size: 70px;
+
+}
+
+.arsenal{
+position: relative;
+
+}
+.arsenal img{
+    margin-left: 50px ;
+    margin-top: 50px;
+}
+
+.arsenal h1{
+    position: absolute;
+    top: 250px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.arsenal p{
+    position: absolute;
+    top: 370px;
+    font-size: 20px;
+    margin-right: 250px;
+    color: gray;
+}
+
+
+.arsenal h5{
+    position: absolute;
+    top: 320px;
+    left: 1050px;
+    color: gray;
+    font-size: 20px;
+ font-family: sans-serif;
+}
+
+.arsenal button{
+    position:absolute;
+    top: 500px;
+    right: 700px;
+    background-color: rgb(150, 52, 241);
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica, sans-serif;
+ 
+
+}
+ 
+/* footer */
+
+
+footer{
+    display: flex;
+    justify-content: space-around; 
+      font-family: sans-serif;
+       margin-top: 30px;
+       font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 120px;
+    padding-left:  10px;
+    /* color: rgb(172, 53, 53); */
+}
+li{
+  color: rgb(17, 17, 17);
+}
+
+.ul2 img{
+    margin-top: 30px;
+}
+
+.ul3{
+    margin-top: 100px;
+}
+
+.ul4{
+    margin-top: 100px;
+}
+
+
+
+footer .submit{
+    position: relative;
+    top: 325px;
+    right: 69px;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border: none;
+}
+
+footer .email{
+    position: relative;
+    top: 380px;
+    right: 280px;
+    padding: 18px;
+}
+
+
+.eenndd{
+ margin-top: 150px;
+ margin-left: 700px;
+ margin-bottom:5px ;
+ font-size: 20px;
+ color: gray;
+}

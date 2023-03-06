@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+
+/*start  header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+ 
+header input{
+    padding-left: 30px ;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.fa-magnifying-glass{
+   position: absolute;
+    top: 53px;
+   left: 220px;
+}
+
+/*  end left side */
+
+header div{
+    color: gray
+}
+    
+ div .fa-user:hover{
+    color: black;
+}
+    
+div .fa-heart:hover{
+    color: black;
+}
+    
+div .fa-cart-shopping:hover{
+     color: black;
+}
+    
+.fa-heart{
+     margin-left: 8px;
+    margin-right: 8px;
+
+      }
+    
+    
+    /* end right side */
+
+
+header button{
+    margin-right: 150px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    }
+    
+ hr{
+     margin-top: 100px;
+    
+    }
+    
+    /* start section-1 */
+    
+ nav{
+     margin-top: 20px;
+     margin-left: 650PX;
+    font-family: sans-serif;
+    margin-bottom: 17px;
+      
+    }
+    
+ nav :hover{
+    color: blueviolet;
+    
+    }
+ nav a{
+        margin: 10px;
+        color: gray;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+.Home a{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+.Home{
+        height: 80px;
+        background-color: rgb(211, 209, 209);
+    }
+
+.sec-1{
+    position: relative;
+display: flex;
+margin-left:120px ;
+margin-top: 100px;
+}
+
+.sec-1 h1{
+    margin-left: 140px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.sec-1 p{
+
+position: absolute;
+top: 90px;
+right: 80px;
+font-size: 22px;
+color: gray;
+font-family: sans-serif;
+}
+
+.team{
+    position:relative;
+    height: 700px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.team span{
+color: blueviolet;
+font-size: 30px;
+position: absolute;
+left: 900px;
+top: 50px;
+}
+
+.team h1{
+    position: absolute;
+    left: 810px;
+    top: 120px;
+    font-size: 45px;
+}
+.per-1 img{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    border-radius: 80px;
+}
+
+.per-1 h1{
+position: absolute;
+top: 480px;
+left: 150px;
+font-size: 20px;
+}
+
+.per-1 p{
+    position: absolute;
+    top: 520px;
+    left: 100px;
+    font-size: 12px;
+    color: gray;
+}
+.per-2 img{
+    position: absolute;
+    top: 300px;
+    left: 680px;
+    border-radius: 80px;
+}
+
+.per-2 h1{
+    position: absolute;
+top: 480px;
+left: 700px;
+font-size: 20px;
+}
+
+.per-2 p{
+    position: absolute;
+    top: 520px;
+    left: 630px;
+    font-size: 12px;
+    color: gray;
+}
+
+
+.per-3 img{
+    position: absolute;
+    top: 300px;
+    right: 600px;
+    border-radius: 80px;
+
+}
+
+.per-3 h1{
+    position: absolute;
+    top: 480px;
+    left:  1180px;
+    font-size: 20px;
+}
+.per-3 p{
+    position: absolute;
+    top: 520px;
+    left: 1100px;
+    font-size: 12px;
+    color: gray;
+}
+
+.per-4 img{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    border-radius: 80px;
+
+}
+
+.per-4 h1{
+    position: absolute;
+    top: 480px;
+    left: 1600px;
+    font-size: 20px;
+}
+
+.per-4 p{
+    position: absolute;
+    top: 520px;
+    left: 1550px;
+    font-size: 12px;
+    color: gray;
+}
+
+
+
+/* start section-2 */
+
+.large-image{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+}
+
+
+.first-lest{
+    margin-left: 10px;
+    font-family: sans-serif;
+margin-top: 60px;
+}
+
+.first-lest p{
+position:relative;
+top: 10px;
+left: 5px;
+font-size: 20px;
+}
+
+ .fa-truck{  
+   color: blueviolet; 
+   font-size: 30px;
+   position: relative;
+   left: 80px;
+   top:  60px;
+  
+}
+.thacnd-2{
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+
+.fa-rotate-right{
+   color: blueviolet;  
+    font-size: 30px;
+    position: absolute;
+    left: 720px;
+}
+.thacnd-2 p{
+    position:relative;
+    top: 10px;
+    left: 5px;
+    font-size: 20px;
+}
+
+.third-3{
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+.fa-question{
+    color: blueviolet;  
+    font-size: 35px;
+    position: absolute;
+    right: 500px;
+}
+.third-3 p{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 20px;
+}
+
+
+/* footer */
+
+
+footer{
+    display: flex;
+    justify-content: space-around; 
+      font-family: sans-serif;
+       margin-top: 30px;
+       font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 120px;
+    padding-left:  10px;
+    /* color: rgb(172, 53, 53); */
+}
+li{
+  color: rgb(17, 17, 17);
+}
+
+.ul2 img{
+    margin-top: 30px;
+}
+
+.ul3{
+    margin-top: 100px;
+}
+
+.ul4{
+    margin-top: 100px;
+}
+
+
+
+footer .submit{
+    position: relative;
+    top: 325px;
+    right: 69px;
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border: none;
+}
+
+footer .email{
+    position: relative;
+    top: 380px;
+    right: 280px;
+    padding: 18px;
+}
+
+
+.eenndd{
+ margin-top: 150px;
+ margin-left: 700px;
+ margin-bottom:5px ;
+ font-size: 20px;
+ color: gray;
+}
